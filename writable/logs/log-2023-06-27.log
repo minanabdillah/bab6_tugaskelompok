@@ -1,0 +1,863 @@
+ERROR - 2023-06-27 06:11:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:11:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:12:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:12:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:12:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:12:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:13:45 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:14:20 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:14:21 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:19:36 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:19:37 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:19:37 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:19:37 --> Undefined property: Config\Database::$defaultGroup
+in SYSTEMPATH\Database\Config.php on line 64.
+ 1 SYSTEMPATH\Database\Config.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'C:\\xampp2\\htdocs\\tugaswebprograming\\system\\Database\\Config.php', 64)
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 3 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:20:48 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:25:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:25:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:25:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:25:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:25:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:25:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:25:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:25:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:27:56 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:29:28 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:29:29 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:29:29 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:29:30 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:41:03 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:41:50 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:41:51 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:41:51 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:41:51 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:41:51 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:45:53 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 06:46:50 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:49:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:56:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:56:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:56:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:56:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 06:57:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 06:57:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 07:03:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 07:03:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 07:03:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 07:03:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 07:03:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 07:03:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+ERROR - 2023-06-27 07:09:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nama_pengguna'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'nama_pengguna', Object(SensitiveParameterValue), 'universitas', 3306, '', 0)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Dosen.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Dosen->index()
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp2\htdocs\tugaswebprograming\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\tugaswebprograming\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp2\htdocs\tugaswebprograming\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp2\htdocs\tugaswebprograming\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp2\htdocs\tugaswebprograming\app\Controllers\Dosen.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(934): App\Controllers\Dosen->index()
+#7 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\tugaswebprograming\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\tugaswebprograming\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2023-06-27 07:09:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Dosen.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-27 07:15:13 --> Too few arguments to function App\Controllers\Mahasiswa::delete(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Mahasiswa.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')

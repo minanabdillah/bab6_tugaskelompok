@@ -1,0 +1,114 @@
+CRITICAL - 2023-06-04 08:40:05 --> syntax error, unexpected identifier "left", expecting ";"
+in APPPATH\Controllers\bab2.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\bab2')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\bab2')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\bab2', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:14:49 --> Undefined property: App\Controllers\bab2::$load
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$load', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:15:29 --> Undefined property: App\Controllers\bab2::$load
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$load', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:16:00 --> Undefined property: App\Controllers\bab2::$load
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$load', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:24:24 --> Undefined property: App\Controllers\bab2::$load
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$load', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:26:45 --> Undefined property: App\Controllers\bab2::$load
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$load', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:27:05 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:35:28 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:35:29 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:35:29 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:35:30 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:36:17 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:36:18 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')
+CRITICAL - 2023-06-04 10:36:18 --> Undefined property: App\Controllers\bab2::$loads
+in APPPATH\Controllers\bab2.php on line 9.
+ 1 APPPATH\Controllers\bab2.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\bab2::$loads', 'C:\\xampp2\\htdocs\\prakwebprog\\app\\Controllers\\bab2.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bab2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bab2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\prakwebprog\\public\\index.php')

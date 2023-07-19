@@ -1,0 +1,508 @@
+CRITICAL - 2023-06-29 15:26:44 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:28:06 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:28:08 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:29:35 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:36:02 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:36:03 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:41:23 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:43:25 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:43:27 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:43:27 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:43:28 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:45:12 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:45:13 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:45:14 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:45:14 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:45:52 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:46:03 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:46:09 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:46:10 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:49:39 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:49:40 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:49:40 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:49:40 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:49:40 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 8 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(8): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:52:51 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:52:52 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:52:53 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:52:53 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and exactly 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 245.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:53:53 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:56:16 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:57:11 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 15:59:59 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:00:04 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:00:09 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:00:09 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:02:18 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:02:20 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:02:21 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:02:21 --> Too few arguments to function CodeIgniter\Router\Router::__construct(), 0 passed in C:\xampp2\htdocs\tugaswebprograming\app\Config\Routes.php on line 9 and at least 1 expected
+in SYSTEMPATH\Router\Router.php on line 121.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\Router->__construct()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:04:33 --> CodeIgniter\Router\RouteCollection::Config\{closure}(): Argument #1 ($routes) must be of type CodeIgniter\Router\RouteGroup, CodeIgniter\Router\RouteCollection given, called in C:\xampp2\htdocs\tugaswebprograming\system\Router\RouteCollection.php on line 676
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->group('admin/mahasiswa', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:23:20 --> Class "CodeIgniter\BaseController" not found
+in APPPATH\Controllers\Admin\Mahasiswa.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\tugaswebprograming\\app\\Controllers\\Admin\\Mahasiswa.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Mahasiswa')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\Mahasiswa', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:26:36 --> Invalid file: "admin/mahasiswa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa/index', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(12): view('admin/mahasiswa/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:28:28 --> Invalid file: "admin/mahasiswa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa/index', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('admin/mahasiswa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:34:29 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:34:30 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:35:01 --> Invalid file: "Admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('Admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:35:46 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:36:20 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:36:21 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Admin\Mahasiswa.php(23): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 16:37:00 --> Invalid file: "admin/dosen/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dosen/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dosen/index', [], true)
+ 3 APPPATH\Controllers\Admin\Dosen.php(23): view('admin/dosen/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dosen->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 17:19:06 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 17:20:51 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 17:20:52 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
+CRITICAL - 2023-06-29 17:23:55 --> Invalid file: "admin/mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\tugaswebprograming\\public\\index.php')
